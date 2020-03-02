@@ -1,0 +1,22 @@
+doctype html
+html
+    head
+        meta(name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no')
+        meta(charset='utf-8')
+        title= title
+        link(rel='stylesheet', href='stylesheets/style.css')
+        link(rel='stylesheet', href='/css/bootstrap.min.css')
+
+    body
+        div(class="login-form")
+            h1 Login Form
+            form(action="auth" method="POST")
+                input(type="text" name="username" placeholder="Username" required)
+                input(type="password" name="password" placeholder="Password" required)
+                input(type="submit") 
+                br
+                if message != ''
+                    di.row(style="display: inline;")
+                        div(style='text-align:center;').row.alert.alert-danger= message
+		
+	
