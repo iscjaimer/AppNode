@@ -17,7 +17,7 @@
     "express-session": "^1.17.0",
     "favicons": "^6.0.0",
     "http-errors": "^1.6.3",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "mak-tedious-connection-pool": "^1.0.0",
     "morgan": "~1.9.1",
     "passport": "^0.4.1",
