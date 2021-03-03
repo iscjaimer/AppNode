@@ -24,7 +24,7 @@
     "passport-local": "^1.0.0",
     "popper.js": "^1.16.1",
     "port-used": "^2.0.8",
-    "pug": "^2.0.4",
+    "pug": "^3.0.1",
     "tedious": "^8.0.1",
     "tedious-connection-pool": "^1.0.5",
     "tedious-friendly": "^1.0.1-1"
